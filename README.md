@@ -31,3 +31,8 @@ The initial MVP (`v0.0.1`) prints the current application version and exits.
 ### 1. Build the Docker Image
 ```bash
 docker build -t hivebox:v0.0.1 .
+
+## Contribution & Git Workflow
+- Direct pushes to `main` are blocked via branch protection rules.
+- All changes must be developed in dedicated feature or documentation branches (e.g., `feat/...`, `docs/...`).
+- Every change requires a Pull Request linked to an active GitHub Issue on the Kanban board before merging into `main`.
